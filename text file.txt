@@ -1,2 +1,0 @@
-this is the first text file of this repository. 
-all the upcoming file will be of assignments provided by this course.
