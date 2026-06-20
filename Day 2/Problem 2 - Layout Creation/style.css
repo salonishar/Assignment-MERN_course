@@ -1,0 +1,28 @@
+#container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 30px;
+    align-items: start;
+}
+
+
+.innerContainers{
+    height: fit-content;
+}
+
+.imagecontainers{
+    height: 65%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.imagecontainers img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.textContainers{
+    height: 35%;
+}
